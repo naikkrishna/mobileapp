@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgcolor"
+    android:layout_height="match_parent"
+    tools:context=".Book">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/cardview_dark_background"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="BOOKING"
+        tools:layout_editor_absoluteX="105dp"
+<<<<<<< HEAD
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+=======
+<<<<<<< HEAD
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+=======
+        tools:layout_editor_absoluteY="1dp" />
+>>>>>>> 536c863dffefa4a0aceedbc22dddef878cfbf28e
+>>>>>>> 89f82ab71ea2e2785e05bfb251933bd31be4b49e
+
+    <Button
+        android:id="@+id/btnbooknow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/tvstartdate"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
+        android:hint="Start Date"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <TextView
+        android:id="@+id/tvenddate"
+        android:layout_width="142dp"
+        android:background="@color/cardview_light_background"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:hint="EndDate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_light_background"
+        android:padding="30px"
+        android:text="Confirm "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 89f82ab71ea2e2785e05bfb251933bd31be4b49e
+    <TextView
+        android:id="@+id/tvmsg"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<<<<<<< HEAD
+=======
+=======
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 536c863dffefa4a0aceedbc22dddef878cfbf28e
+>>>>>>> 89f82ab71ea2e2785e05bfb251933bd31be4b49e

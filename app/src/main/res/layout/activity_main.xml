@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdcheck"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="250dp"
+        android:text="SIGN IN" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="250dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RadioButton
+            android:id="@+id/Employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:text="Employee" />
+
+        <RadioButton
+            android:id="@+id/Customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="199dp"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 89f82ab71ea2e2785e05bfb251933bd31be4b49e
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/carlogo" />
+</RelativeLayout>
+
+
+<<<<<<< HEAD
+=======
+=======
+       android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/carlogo" />
+</RelativeLayout>
+>>>>>>> 536c863dffefa4a0aceedbc22dddef878cfbf28e
+>>>>>>> 89f82ab71ea2e2785e05bfb251933bd31be4b49e
